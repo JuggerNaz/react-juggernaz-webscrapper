@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
+import http from 'http';
+
+const got = require('got');
 
 class App extends Component {
   constructor() {
